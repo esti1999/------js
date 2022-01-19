@@ -123,4 +123,36 @@ if(foo!==false)
 }
 
 //13
+foo=4;
+if(foo>5)
+{
+    console.log('i am greater then 5');
+}else{
+    console.log('i am lesser then 5');
+}
 
+//14
+foo=5;
+if(foo>=5)
+{
+    console.log('i am 5 or i am greater then 5');
+}else{
+    console.log('i am not 5 or i am lesser then 5');
+}
+
+//15
+foo=100;
+if(foo<100)
+{
+    console.log('i am lesser then 100');
+}else{
+    console.log('i am 100 or i am greater then 100');
+}
+
+foo=100;
+if(foo%2===0)
+{
+    console.log('i am even');
+}else{
+    console.log('i am odd');
+}
